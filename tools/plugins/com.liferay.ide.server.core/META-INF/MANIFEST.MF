@@ -30,7 +30,8 @@ Require-Bundle: org.eclipse.wst.server.core;bundle-version="[1.1.102,2)";visibil
  org.eclipse.core.commands,
  org.eclipse.wst.validation,
  biz.aQute.remote.api,
- biz.aQute.repository;bundle-version="3.1.0"
+ biz.aQute.repository;bundle-version="3.1.0",
+ org.apache.commons.collections
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
 Export-Package: com.liferay.ide.server.core,
@@ -38,4 +39,3 @@ Export-Package: com.liferay.ide.server.core,
  com.liferay.ide.server.core.proxy,
  com.liferay.ide.server.remote,
  com.liferay.ide.server.util
-Bundle-ClassPath: .
