@@ -34,5 +34,6 @@
 	<modules>
 		<module>com.liferay.ide.ui.service.builder.wizard</module>
 		<module>com.liferay.ide.ui.service.builder.editor</module>
+		<module>com.liferay.ide.ui.service.builder.deploy</module>
 	</modules>
 </project>
