@@ -59,6 +59,7 @@ public class ViewAction extends UIAction {
 	}
 
 	public CodeUpgradeViewAction codeUpgrade = new CodeUpgradeViewAction();
+	public ErrorLogViewAction errorLog = new ErrorLogViewAction();
 	public ProjectViewAction project = new ProjectViewAction();
 	public ServersViewAction servers = new ServersViewAction();
 
@@ -90,6 +91,10 @@ public class ViewAction extends UIAction {
 
 		public void checkErrorLog() {
 			System.out.println(_errorLogView.getLogs().size());
+		}
+
+		public void deleteLog() {
+			_errorLogView.clickDeleteLogBtn();
 		}
 
 		private final ErrorLogView _errorLogView = new ErrorLogView(bot);
